@@ -12,12 +12,13 @@
 This is a " To do List " application with authentication and CRUD functionality using the Python Flask micro-framework.
 
 ## Contents
- - [Third-Party Extensions]
- - [Setup & Installtion]
- - [Running The App]
- - [Viewing The App]
 
-## [Third-Party Extensions]
+ - Third-Party Extensions
+ - Setup & Installtion
+ - Running The App
+ - Viewing The App
+
+## Third-Party Extensions
      - External api used to get data from: https://www.abstractapi.com/holidays-api
      - We used Heroku to deploy our application.
      - Data Base Credentials
