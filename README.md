@@ -1,12 +1,12 @@
 
 # Cloud computing mini-project
 ## Team 8
-  - Arshiya Khan
-  - Benesh Tobin
-  - Koravich
-  - Poornima
-  - Vickey
-  - Surya
+  - Arshiya Khan [200271099]
+  - Benesh Tobin Jayaraj [200158561]
+  - Koravich Sangkaew [190262895]
+  - Poornima Sampath Kumar [200253648]
+  - Sri Vignesh Krishnan [200174480]
+  - Surya Prakasam Gnanaraj [210389416]
 
 # Flask Web App Tutorial
 This is a " To do List " application with authentication and CRUD functionality using the Python Flask micro-framework.
@@ -25,27 +25,23 @@ This is a " To do List " application with authentication and CRUD functionality 
 
 - Heroku rotates credentials periodically and updates applications where this database is attached.
 
-- Host
-- ec2-3-233-43-103.compute-1.amazonaws.com
-- Database
- - d5282sjs51hun0
- - User
- - deobefiazugyyy
- - Port
-   5432
- - Password
-  -c23a9d5d05e18f0eebe6bf69a1d0ecc6bb4900ea2ced4e2d1f14856ade5b16ff
- - URI
-   - postgres://deobefiazugyyy:c23a9d5d05e18f0eebe6bf69a1d0ecc6bb4900ea2ced4e2d1f14856ade5b16ff@ec2-3-233-43-103.compute-1.amazonaws.com:5432/d5282sjs51hun0
-   - Heroku CLI
+- Host ec2-3-233-43-103.compute-1.amazonaws.com
+- Database d5282sjs51hun0
+- User deobefiazugyyy
+- Port 5432
+- Password c23a9d5d05e18f0eebe6bf69a1d0ecc6bb4900ea2ced4e2d1f14856ade5b16ff
+- URI postgres://deobefiazugyyy:c23a9d5d05e18f0eebe6bf69a1d0ecc6bb4900ea2ced4e2d1f14856ade5b16ff@ec2-3-233-43-103.compute-1.amazonaws.com:5432/d5282sjs51hun0
+- Heroku CLI Command (database) 
    - heroku pg:psql postgresql-silhouetted-15724 --app cc-mini-proj
+
 ## Setup & Installtion
+  
+To use this template, your computer needs:
+
+- [Python 3](https://python.org)
+- [Pip Package Manager](https://pypi.python.org/pypi)  
 
 Make sure you have the latest version of Python installed.
-
-```bash
-git clone <repo-url>
-```
 
 Heroku's dynos are just managed runtime containers with a Linux operating system underneath. These containers run the processes that allow your custom application code to run.
 
@@ -55,10 +51,6 @@ web gunicorn wsgi:app --preload --workers 1
 ```bash
 pip install -r requirements.txt
 ```
-To use this template, your computer needs:
-
-- [Python 3](https://python.org)
-- [Pip Package Manager](https://pypi.python.org/pypi)
 
 ## Running The App
 
